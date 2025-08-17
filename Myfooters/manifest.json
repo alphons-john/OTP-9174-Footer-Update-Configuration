@@ -1,0 +1,107 @@
+{
+    "name": "Myfooters",
+    "fantasyName": "footerStyle",
+    "vendor": "JJ",
+    "type": "extension",
+    "target": "SCA,SCS",
+    "target_version": {
+        "SCA": ">=25.1.0",
+        "SCS": ">=25.1.0"
+    },
+    "version": "1.0.0",
+    "description": "stying footer",
+    "assets": {
+        "img": {
+            "files": []
+        },
+        "fonts": {
+            "files": [
+                "fonts/phone-volume-solid-full.svg"
+            ]
+        },
+        "services": {
+            "files": [
+                "services/footermodule.Service.ss"
+            ]
+        }
+    },
+    "configuration": {
+        "files": [
+            "Modules/footermodule/Configuration/footermodule.json"
+        ]
+    },
+    "templates": {
+        "application": {
+            "shopping": {
+                "files": [
+                    "Modules/footermodule/Templates/jj_myfooters_footermodule.tpl"
+                ]
+            },
+            "myaccount": {
+                "files": [
+                    "Modules/footermodule/Templates/jj_myfooters_footermodule.tpl"
+                ]
+            },
+            "checkout": {
+                "files": [
+                    "Modules/footermodule/Templates/jj_myfooters_footermodule.tpl"
+                ]
+            }
+        }
+    },
+    "sass": {
+        "entry_points": {
+            "shopping": "Modules/footermodule/Sass/_myfooters-footermodule.scss",
+            "myaccount": "Modules/footermodule/Sass/_myfooters-footermodule.scss",
+            "checkout": "Modules/footermodule/Sass/_myfooters-footermodule.scss"
+        },
+        "files": [
+            "Modules/footermodule/Sass/_myfooters-footermodule.scss"
+        ]
+    },
+    "javascript": {
+        "entry_points": {
+            "shopping": "Modules/footermodule/JavaScript/JJ.Myfooters.footermodule.js",
+            "myaccount": "Modules/footermodule/JavaScript/JJ.Myfooters.footermodule.js",
+            "checkout": "Modules/footermodule/JavaScript/JJ.Myfooters.footermodule.js"
+        },
+        "application": {
+            "shopping": {
+                "files": [
+                    "Modules/footermodule/JavaScript/JJ.Myfooters.footermodule.js",
+                    "Modules/footermodule/JavaScript/footermodule.View.js",
+                    "Modules/footermodule/JavaScript/JJ.Myfooters.footermodule.Model.js",
+                    "Modules/footermodule/JavaScript/JJ.Myfooters.footermodule.SS2Model.js"
+                ]
+            },
+            "myaccount": {
+                "files": [
+                    "Modules/footermodule/JavaScript/JJ.Myfooters.footermodule.js",
+                    "Modules/footermodule/JavaScript/footermodule.View.js",
+                    "Modules/footermodule/JavaScript/JJ.Myfooters.footermodule.Model.js",
+                    "Modules/footermodule/JavaScript/JJ.Myfooters.footermodule.SS2Model.js"
+                ]
+            },
+            "checkout": {
+                "files": [
+                    "Modules/footermodule/JavaScript/JJ.Myfooters.footermodule.js",
+                    "Modules/footermodule/JavaScript/footermodule.View.js",
+                    "Modules/footermodule/JavaScript/JJ.Myfooters.footermodule.Model.js",
+                    "Modules/footermodule/JavaScript/JJ.Myfooters.footermodule.SS2Model.js"
+                ]
+            }
+        }
+    },
+    "ssp-libraries": {
+        "entry_point": "Modules/footermodule/SuiteScript/JJ.Myfooters.footermodule.js",
+        "files": [
+            "Modules/footermodule/SuiteScript/JJ.Myfooters.footermodule.js",
+            "Modules/footermodule/SuiteScript/footermodule.ServiceController.js"
+        ]
+    },
+    "suitescript2": {
+        "files": [
+            "Modules/footermodule/SuiteScript2/footermodule.Service.ss"
+        ]
+    }
+}

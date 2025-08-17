@@ -1,0 +1,112 @@
+{
+  "type": "object",
+   "subtab":{
+        "id":"footermodule",
+        "group":"extensions",
+        "title":"FooterModule"
+    },
+  "properties":
+   {
+    "footermodule.phone": {
+      "group": "extensions",
+      "subtab": "footermodule",
+      "type": "string",
+      "title": "Contact Phone",
+      "description": "Phone number displayed in footer",
+      "default": "909-444-7999"
+    },
+    "footermodule.email": {
+      "group": "extensions",
+      "subtab": "footermodule",
+      "type": "string",
+      "title": "Contact Email",
+      "description": "Email address displayed in footer",
+      "default": "info@balajiwireless.com"
+    },
+    "footermodule.addressTitle": {
+      "group": "extensions",
+      "subtab": "footermodule",
+      "type": "string",
+      "title": "Address Title",
+      "description": "Title for address section",
+      "default": "NASHVILLE DISTRIBUTION CENTER"
+    },
+    "footermodule.addressLine1": {
+      "group": "extensions",
+      "subtab": "footermodule",
+      "type": "string",
+      "title": "Address Line 1",
+      "description": "Street address",
+      "default": "5301 Centre Pointe Dr."
+    },
+    "footermodule.addressLine2": {
+      "group": "extensions",
+      "subtab": "footermodule",
+      "type": "string",
+      "title": "Address Line 2",
+      "description": "City, State, ZIP",
+      "default": "La Vergne, TN 37086"
+    },
+    "footermodule.accountLinks": {
+      "group": "extensions",
+      "subtab": "footermodule",
+      "type": "array",
+      "title": "My Account Links",
+      "description": "Links under MY ACCOUNT section",
+      "items": {
+        "type": "object",
+        "properties": {
+          "label": { "type": "string" },
+          "url": { "type": "string" }
+        }
+      },
+      "default": [
+        { "label": "Sign In", "url": "/login" },
+        { "label": "Register", "url": "/register" },
+        { "label": "View Cart", "url": "/cart" },
+        { "label": "My Account", "url": "/account" }
+      ]
+    },
+    "footermodule.socialLinks": {
+      "group": "extensions",
+      "subtab": "footermodule",
+      "type": "array",
+      "title": "Information Links",
+      "description": "Links under INFORMATION section",
+      "items": {
+        "type": "object",
+        "properties": {
+          "label": { "type": "string" },
+          "url": { "type": "string" }
+        }
+      },
+      "default": [
+        { "label": "About Us", "url": "/about" },
+        { "label": "Contact Us", "url": "/contact" },
+        { "label": "FAQs", "url": "/faq" },
+        { "label": "Terms & Conditions", "url": "/terms" }
+
+      ]
+    },
+    "footermodule.ibformationLinks": {
+    "group": "extensions",
+    "subtab": "footermodule",
+    "type": "array",
+    "title": "Social Links",
+    "description": "Links under SOCIAL section",
+    "items": {
+        "type": "object",
+        "properties": {
+        "icon": { "type": "string" },
+        "url": { "type": "string" }
+        }
+    },
+    "default": [
+        { "icon": "facebook.svg", "url": "https://facebook.com" },
+        { "icon": "twitter.svg", "url": "https://twitter.com" },
+        { "icon": "instagram.svg", "url": "https://instagram.com" },
+        { "icon": "linkedin.svg", "url": "https://linkedin.com" }
+        ]
+    }
+  }
+}
