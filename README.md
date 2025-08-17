@@ -1,0 +1,1 @@
+# OTP-9174-Footer-Update-Configuration
