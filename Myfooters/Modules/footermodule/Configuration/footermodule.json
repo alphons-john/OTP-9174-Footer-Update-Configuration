@@ -47,6 +47,22 @@
       "description": "City, State, ZIP",
       "default": "La Vergne, TN 37086"
     },
+    "footermodule.companyLogo": {
+      "group": "extensions",
+      "subtab": "footermodule",
+      "type": "string",
+      "title": "Company Logo",
+      "description": "logo of the company",
+      "default": "https://www.cricket.balajiwireless.com/SSP%20Applications/NetSuite%20Inc.%20-%20SCA%202019.1/Development/img/BALAJI.png"
+    },
+    "footermodule.copyRight": {
+      "group": "extensions",
+      "subtab": "footermodule",
+      "type": "string",
+      "title": "CopyRight",
+      "description": "copyright of the company",
+      "default": "© Balaji Trading, Inc. - All Rights Reserved."
+    },
     "footermodule.accountLinks": {
       "group": "extensions",
       "subtab": "footermodule",
@@ -88,7 +104,7 @@
 
       ]
     },
-    "footermodule.ibformationLinks": {
+    "footermodule.informationLinks": {
     "group": "extensions",
     "subtab": "footermodule",
     "type": "array",

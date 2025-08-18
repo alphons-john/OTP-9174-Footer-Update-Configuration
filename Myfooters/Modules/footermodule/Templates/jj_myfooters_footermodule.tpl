@@ -26,7 +26,7 @@
             </p>
             <div class="company-logo">
               <img
-                src="https://www.cricket.balajiwireless.com/SSP%20Applications/NetSuite%20Inc.%20-%20SCA%202019.1/Development/img/BALAJI.png"
+                src="{{logo}}"
                 alt="Balaji Logo">
             </div>
           </div>
@@ -36,10 +36,10 @@
             <div class="footer-column">
               <h5>INFORMATION</h5>
               <ul>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Contact Us</a></li>
-                <li><a href="#">FAQs</a></li>
-                <li><a href="#">Terms & Conditions</a></li>
+                <li><a href="{{aboutus}}">About Us</a></li>
+                <li><a href="{{contactus}}">Contact Us</a></li>
+                <li><a href="{{faq}}">FAQs</a></li>
+                <li><a href="{{terms}}">Terms & Conditions</a></li>
               </ul>
             </div>
 
@@ -48,18 +48,18 @@
               <ul>
                 <li><a href="{{loginurl}}">Sign In</a></li>
                 <li><a href="{{signinurl}}">Register</a></li>
-                <li><a href="#">View Cart</a></li>
-                <li><a href="#">My Account</a></li>
+                <li><a href="{{carturl}}">View Cart</a></li>
+                <li><a href="{{myaccounturl}}">My Account</a></li>
               </ul>
             </div>
 
             <div class="footer-column">
               <h5>SOCIAL</h5>
               <div class="social-links">
-                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
-                <a href="#"><i class="fab fa-youtube"></i></a>
+                <a href="{{Facebook}}"><i class="fab fa-facebook-f"></i></a>
+                <a href="{{Twitter}}"><i class="fab fa-twitter"></i></a>
+                <a href="{{Instagram}}"><i class="fab fa-instagram"></i></a>
+                <a href="{{Youtube}}"><i class="fab fa-youtube"></i></a>
               </div>
             </div>
           </div>
@@ -67,7 +67,7 @@
 
         <!-- Copyright -->
         <div class="copyright">
-          © Balaji Trading, Inc. - All Rights Reserved.
+          {{copyright}}
         </div>
       </div>
     </footer>

@@ -12,7 +12,9 @@
     "description": "stying footer",
     "assets": {
         "img": {
-            "files": []
+            "files": [
+                "img/BALAJI.png"
+            ]
         },
         "fonts": {
             "files": [
