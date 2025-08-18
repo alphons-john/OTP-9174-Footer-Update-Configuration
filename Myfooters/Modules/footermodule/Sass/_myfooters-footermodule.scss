@@ -45,17 +45,17 @@
         }
  
         .newsletter-btn {
-            background-color: #dbdee2;
+            background-color: #fff;
             color: #000;
             border: none;
-            padding: 12px 30px;
+            width:138px ;
+            height: 48px;
             border-radius: 30px;
             cursor: pointer;
             font-size: 14px;
             transition: background-color 0.3s ease;
  
             &:hover {
-                background-color: #fff;
                 letter-spacing: 3px;
                 font-weight: bold;
             }

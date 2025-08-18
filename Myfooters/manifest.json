@@ -2,14 +2,15 @@
     "name": "Myfooters",
     "fantasyName": "footerStyle",
     "vendor": "JJ",
+    "version": "1.0.0",
     "type": "extension",
     "target": "SCA,SCS",
     "target_version": {
         "SCA": ">=25.1.0",
         "SCS": ">=25.1.0"
     },
-    "version": "1.0.0",
     "description": "stying footer",
+    "skins": [],
     "assets": {
         "img": {
             "files": [
@@ -32,6 +33,16 @@
             "Modules/footermodule/Configuration/footermodule.json"
         ]
     },
+    "sass": {
+        "entry_points": {
+            "shopping": "Modules/footermodule/Sass/_myfooters-footermodule.scss",
+            "myaccount": "Modules/footermodule/Sass/_myfooters-footermodule.scss",
+            "checkout": "Modules/footermodule/Sass/_myfooters-footermodule.scss"
+        },
+        "files": [
+            "Modules/footermodule/Sass/_myfooters-footermodule.scss"
+        ]
+    },
     "templates": {
         "application": {
             "shopping": {
@@ -50,16 +61,6 @@
                 ]
             }
         }
-    },
-    "sass": {
-        "entry_points": {
-            "shopping": "Modules/footermodule/Sass/_myfooters-footermodule.scss",
-            "myaccount": "Modules/footermodule/Sass/_myfooters-footermodule.scss",
-            "checkout": "Modules/footermodule/Sass/_myfooters-footermodule.scss"
-        },
-        "files": [
-            "Modules/footermodule/Sass/_myfooters-footermodule.scss"
-        ]
     },
     "javascript": {
         "entry_points": {
@@ -101,6 +102,7 @@
             "Modules/footermodule/SuiteScript/footermodule.ServiceController.js"
         ]
     },
+    "local_folder": "Workspace\\Myfooters",
     "suitescript2": {
         "files": [
             "Modules/footermodule/SuiteScript2/footermodule.Service.ss"
